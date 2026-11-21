@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+@media screen and (min-width: 0px) {
+}
+/*bootstrap*/
+@media screen and (min-width: 576px) {
+}
+/*bootstrap*/
+@media screen and (min-width: 768px) {
+}
+/*tab～PC表示*/
+@media screen and (min-width: 1024px) {
+}
+/*bootstrap*/
+@media screen and (min-width: 1200px) {
+}
+@media screen and (min-width: 1500px) {
+}
+@media screen and (min-width: 1900px) {
+}
+
+.main_wrap{
+	position: relative;
+}
+
+.main_text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+	z-index: 10;
+	text-align: center;
+	font-size: 1rem;
+}

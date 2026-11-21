@@ -1,0 +1,206 @@
+/*outlet*/
+
+html,body{
+	font-family:"Helvetica Neue", Arial, "ヒラギノ角ゴ ProN W3" , "Hiragino Kaku Gothic ProN", "Hiragino Sans","メイリオ", Meiryo, sans-serif;
+	color:#666666;
+	line-height:1.7;
+	width:100%;
+}
+
+/*************font size**************/
+
+.fs300p{
+	font-size:3rem!important;
+}
+.fs200p{
+	font-size:2rem!important;
+}
+.fs180p{
+	font-size:1.8rem!important;
+}
+.fs170p{
+	font-size:1.7rem!important;
+}
+.fs150p{
+	font-size:1.5rem!important;
+}
+.fs120p{
+	font-size:1.2rem!important;
+}
+.fs110p{
+	font-size:1.1rem!important;
+}
+.fs100p{
+	font-size:1rem!important;
+}
+.fs90p{
+	font-size:0.9rem!important;
+}
+.fs80p{
+	font-size:0.8rem!important;
+}
+.fs70p{
+	font-size:0.7rem!important;
+}
+.fs60p{
+	font-size:0.6rem!important;
+}
+
+/*************font color**************/
+
+
+/************* google font face **************/
+.g_font{
+	font-family: 'Shippori Mincho', serif;
+}
+
+
+
+/*************link**************/
+
+a { 
+	color:#4c6fd1;
+    transition: 0.3s ease-in-out;
+	text-decoration: underline;
+}
+
+a:hover { 
+	opacity: .6;
+	}
+
+a:focus { 
+	outline:none;
+	}
+
+.text_d_none{
+text-decoration: none;
+}
+
+/*************margin**************/
+
+.mb_01{
+	margin-bottom:1rem;
+}
+.mb_02{
+	margin-bottom:2rem;
+}
+.mb_03{
+	margin-bottom:3rem;
+}
+.mb_04{
+	margin-bottom:4rem;
+}
+.mb_05{
+	margin-bottom:5rem;
+}
+.mb_06{
+	margin-bottom:6rem;
+}
+.mb_07{
+	margin-bottom:7rem;
+}
+.mb_08{
+	margin-bottom:8rem;
+}
+.mb_09{
+	margin-bottom:9rem;
+}
+.mb_10{
+	margin-bottom:10rem;
+}
+.mb_20{
+	margin-bottom:20rem;
+}
+
+
+/*************text選択**************/
+
+::selection {
+    background: #4c6fd1;
+    color: #fff;
+}
+
+::-moz-selection {
+    background: #4c6fd1;
+    color: #fff;
+}
+
+/*************text hight**************/
+
+.lh_1{
+line-height: 1rem;
+}
+.lh_1-5{
+line-height: 1.5rem;
+}
+.lh_1-8{
+line-height: 1.8rem;
+}
+.lh_2{
+line-height: 2rem;
+}
+.lh_2-5{
+line-height: 2.5rem;
+}
+
+
+/*************foat**************/
+
+.float_left{
+	float:left;
+}
+.float_right{
+	float:right;
+}
+.clear{
+	clear:both;
+}
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+
+/************* fontawesome 45 **************/
+
+
+.fa-rotate-45 {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+
+/* 5 Columns */
+
+.col-15, .col-sm-15, .col-md-15, .col-lg-15 {
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+	width: 100%;
+}
+
+@media (min-width: 768px) {
+.col-sm-15 {
+	width: 20%;
+	flex: 0 0 20%;
+}
+}
+
+@media (min-width: 992px) {
+.col-md-15 {
+	width: 20%;
+	flex: 0 0 20%;
+}
+}
+
+@media (min-width: 1200px) {
+.col-lg-15 {
+	width: 20%;
+	flex: 0 0 20%;
+}
+}
