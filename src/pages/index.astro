@@ -59,7 +59,9 @@ const { contents } = await res.json();
           <div class="item col-6 col-lg-4 mb-4" data-category={(work.category ?? []).join(' ')}>
             <div class="item-content">
               <div class="custom-content">
-                <img src={work.image.url} class="img-fluid border" alt={work.title}>
+                <a href={`/works/${work.id}/`}>
+                  <img src={work.image.url} class="img-fluid border" alt={work.title}>
+                </a>
                 {work.title}
               </div>
             </div>
