@@ -49,6 +49,9 @@ const { work } = Astro.props;
     <div class="row mb-2">
       <div class="col-lg-10 offset-lg-1 mb-4">
         {work.client && <h4 class="col-12 fs100p"><b>{work.client}</b></h4>}
+        {work.period && (
+          <p class="col-12 fs100p">{work.period_label?.[0] ?? '在籍'}：{work.period}</p>
+        )}
         {work.links && <div class="col-12 fs100p mb-3" set:html={work.links} />}
         {work.scope && (
           <p class="col-12 fs100p border-bottom pb-4" style="white-space: pre-line;">[内容]{"\n"}{work.scope}</p>
