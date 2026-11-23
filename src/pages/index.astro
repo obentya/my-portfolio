@@ -60,7 +60,7 @@ const { contents } = await res.json();
             <div class="item-content">
               <div class="custom-content">
                 <a href={`/works/${work.id}/`}>
-                  <img src={work.image.url} class="img-fluid border" alt={work.title}>
+                                                      <img src={work.image.url} class="img-fluid border" alt={work.title} style="aspect-ratio: 3 / 2; width: 100%; object-fit: contain; object-position: center; background: #f5f5f5;">
                 </a>
                 {work.title}
               </div>
